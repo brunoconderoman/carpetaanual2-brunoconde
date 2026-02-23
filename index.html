@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRUNO CONDE: Carpeta Anual 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#programacion">programación</a>
+      <a href="#guion">guion</a>
+      <a href="#uxui">diseño web - ux/ui</a>
+      <a href="#audiovisual">arte digital - audiovisual</a>
+      <a href="#modelado3d">modelado 3d</a>
+      <a href="#branding">branding</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>BRUNO CONDE: Carpeta Anual 2</h1>
+      <p>Bienvenidos a la one page de mi carpeta anual 2. Un sitio donde enseño mi proceso de aprendizaje tras el segundo año en la licenciatura diseño multimedia.</p>
+      <button class="btnHeroVideo" id="btnHeroVideo" type="button">Ver video principal</button>
+    </div>
+  </section>
+
+  <section class="seccionProgramacion" id="programacion">
+    <h2 class="tituloSeccion">PROGRAMACIÓN</h2>
+    <p class="textoSeccion">
+      En Programación 1 y 2 no solo aprendimos los recursos básicos de HTML, CSS y JS, sino también a aplicarlos en el desarrollo completo de páginas web. A lo largo de los semestres trabajamos en proyectos que implican diseñar y construir sitios funcionales de principio a fin. Como ejemplos, presento “EMPILCHADOS UY”, una web de venta de camisetas de fútbol realizada como obligatorio para Programación 2, y “MUNDO SCORSESE”, que junto a mi compañera Sofía Martusciello, creamos un sitio sobre la filmografía del director Martin Scorsese desarrollado a partir de una API creada para su base de datos.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto imgClick"
+        src="img/empilchados-1.png"
+        alt="Empilchados UY"
+        data-imagenes="img/empilchados-1.png,img/empilchados-2.png,img/empilchados-3.png">
+      <p class="textoClick">Clickeá para ver más de Empilchados UY</p>
+    </div>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto imgClick"
+        src="img/scorsese-1.png"
+        alt="Mundo Scorsese"
+        data-imagenes="img/scorsese-1.png,img/scorsese-2.png,img/scorsese-3.png">
+      <p class="textoClick">Clickeá para ver más de Mundo Scorsese</p>
+    </div>
+  </section>
+
+  <div class="modalCarrusel" id="modalCarrusel">
+    <div class="fondoModal" id="fondoModal"></div>
+
+    <div class="contenidoModal">
+      <button class="btnCerrar" id="btnCerrar">✕</button>
+      <button class="btnFlecha btnAnterior" id="btnAnteriorModal">‹</button>
+
+      <div class="contenedorImagenModal" id="contenedorImagenModal">
+        <img id="imgModal" src="" alt="Imagen ampliada">
+        <video id="videoModal" controls></video>
+      </div>
+
+      <button class="btnFlecha btnSiguiente" id="btnSiguienteModal">›</button>
+      <p class="contadorModal" id="contadorModal">1 / 1</p>
+    </div>
+  </div>
+
+  <section class="seccionGuion" id="guion">
+    <h2 class="tituloSeccion">GUION</h2>
+
+    <p class="textoSeccion">
+      Para la preparación de cualquier material audiovisual, la realización de un guion es fundamental. En la materia Narrativa Cinematográfica y Guion aprendimos a desarrollar guiones para luego aplicar esos conocimientos en la creación de uno propio para un cortometraje. Estos aprendizajes resultaron clave para poder aplicarlos en distintos proyectos audiovisuales, tanto en el presente como en el futuro.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto imgClick"
+        src="img/guion-1.png"
+        alt="Mi única compañía - guion"
+        data-imagenes="img/guion-1.png,img/guion-2.png,img/guion-3.png,img/guion-4.png,img/guion-5.png,img/guion-6.png,img/guion-7.png,img/guion-8.png,img/guion-9.png,img/guion-10.png,img/guion-11.png,img/guion-12.png,img/guion-13.png,img/guion-14.png,img/guion-15.png,img/guion-16.png">
+      <p class="textoClick">Clickeá para ver el guion completo</p>
+    </div>
+  </section>
+
+  <section class="seccionUx" id="uxui">
+    <h2 class="tituloSeccion">DISEÑO WEB - UX/UI</h2>
+
+    <p class="textoSeccion">
+      Otra de las ramas del diseño multimedia está vinculada al diseño web y a la aplicación del diseño UX/UI. En las materias de Diseño Web y Diseño de Interfaces abordamos desde la teoría de la experiencia de usuario hasta su implementación en distintas interfaces. “Ronda” es una app de donación diseñada en Figma, herramienta que aprendimos durante estos semestres en Diseño Web junto a mis compañeros Facundo Spotti e Ignacio Bustamante. Además, en Diseño de Interfaces realicé, junto a mi compañero Francisco Guillén, un rediseño de la aplicación Waze aplicando los conocimientos adquiridos.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto imgClick"
+        src="img/ronda-1.png"
+        alt="Ronda"
+        data-imagenes="img/ronda-1.png,img/ronda-2.png,img/ronda-3.png,img/ronda-4.png,img/ronda-5.png,img/ronda-6.png,img/ronda-7.png,img/ronda-8.png,img/ronda-9.png,img/ronda-10.png">
+      <p class="textoClick">Clickeá para ver más de Ronda</p>
+    </div>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto videoClick"
+        src="img/waze-cover.png"
+        alt="Waze"
+        data-video="img/waze.mp4">
+      <p class="textoClick">Clickeá para ver más de Waze</p>
+    </div>
+  </section>
+
+  <section class="seccionArte" id="audiovisual">
+    <h2 class="tituloSeccion">ARTE DIGITAL - AUDIOVISUALES</h2>
+
+    <p class="textoSeccion">
+      En esta sección se muestran dos tipos de trabajos. En primer lugar, se presenta un videomapping realizado en la materia Taller de Arte Digital junto a mis compañeros Valentino Sapone y Joaquín Silva. Allí aprendimos a utilizar herramientas como Processing y Resolume, con las que programamos en vivo piezas visuales y audiovisuales. Por otro lado, también se incluyen trabajos audiovisuales que venimos desarrollando desde el primer semestre. Tuve el privilegio de trabajar para Liverpool Fútbol Club realizando presentaciones de jugadores para sus redes sociales.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto videoClick"
+        src="img/videomapping-cover.png"
+        alt="Videomapping"
+        data-video="img/videomapping.mp4">
+      <p class="textoClick">Clickeá para ver más de Videomapping</p>
+    </div>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto videoClick"
+        src="img/liverpool-cover.png"
+        alt="Liverpool"
+        data-video="img/liverpool.mp4">
+      <p class="textoClick">Clickeá para ver más de Liverpool</p>
+    </div>
+  </section>
+
+  <section class="seccion3d" id="modelado3d">
+    <h2 class="tituloSeccion">MODELADO 3D</h2>
+
+    <p class="textoSeccion">
+      Otra de las herramientas que incorporamos durante este proceso fue el modelado 3D. En la materia Modelado y Animación de Gráficos 3D aprendimos a trabajar con Cinema 4D, explorando tanto la construcción de objetos como su iluminación y animación. A partir de estos conocimientos realizamos distintos ejercicios prácticos, como la creación de un reloj de arena y piezas de ajedrez, donde aplicamos conceptos de materiales, cámaras y render para lograr resultados más realistas.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto videoClick"
+        src="img/reloj-arena-cover.png"
+        alt="Reloj de Arena"
+        data-video="img/reloj-arena.mp4">
+      <p class="textoClick">Clickeá para ver más del Reloj de Arena</p>
+    </div>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto videoClick"
+        src="img/ajedrez-cover.png"
+        alt="Ajedrez"
+        data-video="img/ajedrez.mp4">
+      <p class="textoClick">Clickeá para ver más del Ajedrez</p>
+    </div>
+  </section>
+
+  <section class="seccionBranding" id="branding">
+    <h2 class="tituloSeccion">BRANDING</h2>
+
+    <p class="textoSeccion">
+      A lo largo de la carrera enfrentamos el desafío de diseñar distintos tipos de identidades. En materias como Diseño de Identidad Corporativa para Web trabajamos en el desarrollo de marcas desde cero. Uno de los proyectos consistió en crear el branding de un estudio de diseño ficticio basado en nuestros gustos personales, como si desarrolláramos nuestro propio estudio. En mi caso, presento Brocoli, un estudio ficticio enfocado en el diseño audiovisual.
+    </p>
+
+    <div class="bloqueProyecto">
+      <img class="imgProyecto imgClick"
+        src="img/brocoli-0.png"
+        alt="Branding Brocoli"
+        data-imagenes="img/brocoli-0.png,img/brocoli-1.png,img/brocoli-2.png,img/brocoli-3.png,img/brocoli-4.png,img/brocoli-5.png,img/brocoli-6.png,img/brocoli-7.png,img/brocoli-8.png,img/brocoli-9.png,img/brocoli-10.png,img/brocoli-11.png,img/brocoli-12.png">
+      <p class="textoClick">Clickeá para ver el branding de BRÓCOLI</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footerContenido">
+      <h3 class="footerTitulo">Carpeta Anual 2</h3>
+      <p class="footerNombre">Bruno Conde</p>
+
+      <div class="footerDatos">
+        <p>condebruno84@gmail.com</p>
+        <p>Licenciatura Diseño Multimedia</p>
+        <p>Universidad ORT Uruguay</p>
+      </div>
+
+      <div class="footerLinea"></div>
+      <p class="footerCopy">@bybrunoconde</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
